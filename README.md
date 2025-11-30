@@ -218,7 +218,7 @@ URLTrackerRemover/
 - [ ] 支援從檔案導入/導出
 - [ ] 添加歷史記錄功能
 - [ ] 支援正則表達式自訂規則
-- [ ] 製作安裝程式（Windows .exe / macOS .app）
+- [ ] 製作安裝程式（Windows .exe / macOS .app/Linux .AppImage）
 - [ ] 添加深色模式支援
 
 ## 📄 授權
