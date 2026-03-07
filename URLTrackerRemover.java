@@ -16,11 +16,63 @@ public class URLTrackerRemover extends JFrame {
     
     // 常見的跟蹤參數
     private static final List<String> TRACKING_PARAMS = Arrays.asList(
+        // Google Analytics & UTM
         "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
-        "fbclid", "gclid", "msclkid", "mc_eid", "mc_cid",
-        "_ga", "_gl", "ref", "referer", "referrer",
-        "source", "campaign", "ad_id", "adset_id",
-        "yclid", "wickedid", "twclid", "gbraid", "wbraid"
+        "_ga", "_gl", "ga_source", "ga_medium", "ga_campaign", "ga_term",
+        
+        // 社交媒體廣告
+        "fbclid", "gclid", "msclkid", "twclid", "yclid", "wickedid", "gbraid", "wbraid",
+        
+        // Email 營銷
+        "mc_eid", "mc_cid",
+        
+        // 通用跟蹤
+        "ref", "referer", "referrer", "source", "campaign", "ad_id", "adset_id",
+        
+        // Bilibili (嗶哩嗶哩)
+        "spm_id_from", "from_source", "from_spmid", "from", "seid", 
+        "share_source", "share_medium", "share_plat", "share_session_id", "share_tag",
+        "bbid", "ts", "timestamp", "unique_k", "vd_source",
+        "up_id", "bvid", "rt", "share_from",
+        
+        // 抖音 (Douyin/TikTok)
+        "enter_from", "enter_method", "from_gid", "from_ies", 
+        "is_from_webapp", "sender_device", "sender_web_id",
+        "share_app_id", "share_item_id", "share_link_id", 
+        "timestamp", "u_code", "user_id", "sec_user_id",
+        "ecom_share_track_params", "share_author_id", "previous_page",
+        
+        // 微信 (WeChat)
+        "from_session_id", "from_singlemessage", "isappinstalled", 
+        "scene", "clicktime", "enterid", "ascene", "devicetype",
+        "version", "nettype", "abtest_cookie", "lang", "pass_ticket",
+        "winzoom", "wx_header",
+        
+        // 微博 (Weibo)
+        "from", "wm", "sudaref", "display", "retcode", "luicode", "lfid",
+        
+        // 淘寶/天貓 (Taobao/Tmall)
+        "spm", "scm", "pvid", "ptl", "algo_expid", "bxsign", "utparam",
+        "abbucket", "acm", "ali_trackid", "union_lens",
+        
+        // 京東 (JD.com)
+        "utm_campaign", "utm_source", "utm_medium", "utm_term", "abt",
+        "ad_od", "cu", "jd_pop", "pc_source", "ptag", "union_id",
+        
+        // 知乎 (Zhihu)
+        "utm_campaign", "utm_content", "utm_medium", "utm_source", "utm_oi",
+        "hybrid_search_extra", "hybrid_search_source",
+        
+        // 小紅書 (XiaoHongShu/RED)
+        "app_platform", "app_version", "share_from_user_hidden", "type",
+        "xhsshare", "appuid", "apptime", "ignoreEngage",
+        
+        // 今日頭條 (Toutiao)
+        "utm_campaign", "utm_medium", "utm_source", "req_id", "item_id",
+        
+        // 其他中國平台
+        "clickid", "adid", "creative", "keyword", "matchtype", "network",
+        "device", "devicemodel", "ifatype", "screenheight", "screenwidth"
     );
     
     public URLTrackerRemover() {
