@@ -29,6 +29,10 @@ public class URLTrackerRemover extends JFrame {
         // 通用跟蹤
         "ref", "referer", "referrer", "source", "campaign", "ad_id", "adset_id",
         
+        // YouTube
+        "si", "feature", "kw", "app", "ab_channel", 
+        "source_ve_path",
+        
         // Bilibili (嗶哩嗶哩)
         "spm_id_from", "from_source", "from_spmid", "from", "seid", 
         "share_source", "share_medium", "share_plat", "share_session_id", "share_tag",
@@ -39,7 +43,7 @@ public class URLTrackerRemover extends JFrame {
         "enter_from", "enter_method", "from_gid", "from_ies", 
         "is_from_webapp", "sender_device", "sender_web_id",
         "share_app_id", "share_item_id", "share_link_id", 
-        "timestamp", "u_code", "user_id", "sec_user_id",
+        "u_code", "user_id", "sec_user_id",
         "ecom_share_track_params", "share_author_id", "previous_page",
         
         // 微信 (WeChat)
@@ -49,26 +53,24 @@ public class URLTrackerRemover extends JFrame {
         "winzoom", "wx_header",
         
         // 微博 (Weibo)
-        "from", "wm", "sudaref", "display", "retcode", "luicode", "lfid",
+        "wm", "sudaref", "display", "retcode", "luicode", "lfid",
         
         // 淘寶/天貓 (Taobao/Tmall)
         "spm", "scm", "pvid", "ptl", "algo_expid", "bxsign", "utparam",
         "abbucket", "acm", "ali_trackid", "union_lens",
         
         // 京東 (JD.com)
-        "utm_campaign", "utm_source", "utm_medium", "utm_term", "abt",
-        "ad_od", "cu", "jd_pop", "pc_source", "ptag", "union_id",
+        "ad_od", "cu", "jd_pop", "pc_source", "ptag", "union_id", "abt",
         
         // 知乎 (Zhihu)
-        "utm_campaign", "utm_content", "utm_medium", "utm_source", "utm_oi",
-        "hybrid_search_extra", "hybrid_search_source",
+        "utm_oi", "hybrid_search_extra", "hybrid_search_source",
         
         // 小紅書 (XiaoHongShu/RED)
         "app_platform", "app_version", "share_from_user_hidden", "type",
         "xhsshare", "appuid", "apptime", "ignoreEngage",
         
         // 今日頭條 (Toutiao)
-        "utm_campaign", "utm_medium", "utm_source", "req_id", "item_id",
+        "req_id", "item_id",
         
         // 其他中國平台
         "clickid", "adid", "creative", "keyword", "matchtype", "network",
