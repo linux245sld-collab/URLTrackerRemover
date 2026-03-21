@@ -23,6 +23,9 @@ public class URLTrackerRemover extends JFrame {
         // 社交媒體廣告
         "fbclid", "gclid", "msclkid", "twclid", "yclid", "wickedid", "gbraid", "wbraid",
         
+        // Threads (Meta)
+        "igshid", "igsh", "xmt", "_se", "_t", "_r", "_fbclid",
+        
         // Email 營銷
         "mc_eid", "mc_cid",
         
